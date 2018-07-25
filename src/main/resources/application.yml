@@ -1,11 +1,10 @@
 server:
 	context-path:	/micro
-		
-port:	8080
+	port:	8080
 	spring:
 			datasource:
 					driverClassName:	com.mysql.jdbc.Driver
-					url:	jdbc:mysql://<cloud_host>:<cloud_port>/inventorydb
+					url:	jdbc:mysql://cap-sg-prd-5.integration.ibmcloud.com:18657/inventorydb
 					username:	dbuser
 					password:	Pass4dbUs3R
 			jpa:
